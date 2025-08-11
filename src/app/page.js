@@ -12,7 +12,7 @@ export default function Home() {
         <main className="mt-5 p-4">
           <Profile />
           <About />
-          <div className="mt-11" id="projects">
+          <div className="mt-11 scroll-mt-10" id="projects">
             <h2 className="text-2xl">Projects</h2>
             <ProjectsList />
           </div>
