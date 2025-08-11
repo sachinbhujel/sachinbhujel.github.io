@@ -7,7 +7,7 @@ export default function Navbar() {
         <div className="w-[90%] sm:w-[50%] border flex items-center justify-center bg-gray-10/50 backdrop-blur-sm rounded-4xl p-2">
           <ul className="flex items-center text-base gap-[25px]">
             <li>
-              <a href="/about" className="hover:underline">About</a>
+              <a href="#about" className="hover:underline">About</a>
             </li>
             <li>
               <a href="/projects" className="hover:underline">Projects</a>
