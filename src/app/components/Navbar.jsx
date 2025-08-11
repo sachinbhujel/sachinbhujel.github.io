@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function Navbar() {
-    const [menuOpen, setMenuOpen] = useState(true);
     const [hideOnMobile, setHideOnMobile] = useState(true);
 
     return (
@@ -13,8 +12,6 @@ export default function Navbar() {
                 <div className="w-[60%] sm:w-[80%] border flex items-center sm:justify-center justify-end bg-gray-10/50 backdrop-blur-sm rounded-4xl py-2 px-4">
                     <div className="flex items-center sm:gap-8 gap-4">
                         <div className="flex items-center gap-4">
-                            {menuOpen && (
-                                <>
                                     <ul
                                         className={`w-[80%] sm:w-full sm:flex-row flex-col sm:bg-transparent bg-base-200 backdrop-blur-sm sm:static fixed top-12 left-[10%] rounded sm:border-transparent
                                          border mx-auto items-center text-base sm:p-0 p-2 gap-2 sm:gap-4 ${
@@ -46,8 +43,7 @@ export default function Navbar() {
                                             </a>
                                         </li>
                                     </ul>
-                                </>
-                            )}
+                             
                             <Link href="#blogs" className="hover:underline">
                                 Blogs
                             </Link>
