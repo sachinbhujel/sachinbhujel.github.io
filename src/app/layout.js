@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
                     data-domain="sachinbhujel.netlify.app"
                     src="https://datafa.st/js/script.js"
                 ></script>
+                        <script data-goatcounter="https://sachinbhujel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
             </head>
             <body
                 className={`${dongleFont.variable} antialiased overflow-auto`}
