@@ -10,7 +10,7 @@ export default function Navbar() {
               <a href="#about" className="hover:underline">About</a>
             </li>
             <li>
-              <a href="/projects" className="hover:underline">Projects</a>
+              <a href="#projects" className="hover:underline">Projects</a>
             </li>
             <input
               type="checkbox"
