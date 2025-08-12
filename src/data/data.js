@@ -1,7 +1,7 @@
 export const about = {
-    name: "Sachin Bhujel",
-    role: "Web Developer",
-    about: "Hello! I'm Sachin Bhujel, a frontend developer currently working on myself. Open to remote web dev roles. I know JavaScript and am currently learning React.js & Tailwind.",
+    name: "Your Name",
+    role: "Your Profession",
+    about: "A minimal, clean portfolio template built with Next.js. Perfect for developers who want a simple yet professional online presence without the complexity.",
     email: "sachinbhujel@duck.com",
 };
 
@@ -23,37 +23,37 @@ export const socials = {
 
 export const projects = [
     {
-        title: "Type Fast",
+        title: "Project 1",
         description:
-            "Your typing speed and accuracy will be calculated in real-time. It shows how fast and correct you are. It updates results while you type.",
+            "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
         tags: ["CSS", "React Js"],
         link: "https://maketypefast.netlify.app/",
     },
     {
-        title: "Your Personal Journal",
+        title: "Project 2",
         description:
-            "A simple and peaceful space to capture your thoughts, dreams, and daily moments. Reflect, write, and grow—one entry at a time.",
+            "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
         tags: ["CSS", "React Js"],
         link: "https://reflectly.pages.dev/",
     },
     {
-        title: "Stories For You",
+        title: "Project 3",
         description:
-            "A website where you can only see stories. Watch and share real moments with StoriXY. And stay connected in the most effortless way.",
+            "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
         tags: ["CSS", "React Js"],
         link: "https://storixy.netlify.app/",
     },
     {
-        title: "Smart Invoice Generator",
+        title: "Project 4",
         description:
-            "Make invoices easily with our Invoice Generator. Just add details, download your invoice, and manage all your bills in one place.",
+            "An admin dashboard with real-time data visualization, tables, and role-based access control. Designed for efficient data management.",
         tags: ["CSS", "React Js"],
         link: "https://invoicexy.netlify.app/",
     },
     {
-        title: "Product Cart",
+        title: "Project 5",
         description:
-            "A Shopping Cart in JavaScript lets users pick items to buy. They can add or remove products easily from the cart.",
+            "A dynamic social media platform featuring user profiles, real-time messaging, and customizable feeds. Built with scalability and user engagement in mind.",
         tags: ["HTML", "CSS", "JavaScript"],
         link: "https://sachinbhujel.github.io/30JavascriptProjects/Product_Cart/",
     },
@@ -61,21 +61,36 @@ export const projects = [
 
 export const experience = [
     {
-        title: "HTML, CSS & JavaScript",
+        title: "Frontend Developer at Tech Solutions",
         description:
-            "I have learned HTML, CSS, and JavaScript, and worked on projects using these technologies",
-        date: "12/02/2024",
+            "Worked on building and maintaining responsive web applications using React.js and Next.js, improving UI performance and user experience.",
+        date: "15/01/2024",
     },
     {
-        title: "React.js Projects",
+        title: "Web Developer Intern at Creative Studio",
         description:
-            "I have also learned basic React.js and completed projects with it.",
-        date: "06/05/2025",
+            "Assisted in designing website layouts, wrote clean HTML/CSS code, and collaborated with the team on JavaScript features for client projects.",
+        date: "10/06/2023",
     },
     {
-        title: "Currently Exploring: Tailwind CSS",
+        title: "Junior Developer at Innovate Labs",
         description:
-            "I am currently learning Tailwind CSS. This journey has helped me improve my problem-solving skills and learn new technologies.",
-        date: "20/07/2025",
+            "Developed and tested frontend components, optimized web pages for speed, and contributed to team code reviews and debugging sessions.",
+        date: "01/09/2024",
+    },
+];
+
+export const blogs = [
+    {
+        title: "Understanding React Hooks",
+        date: "12/03/2025",
+    },
+    {
+        title: "CSS Grid vs Flexbox: When to Use Which",
+        date: "25/04/2025",
+    },
+    {
+        title: "Next.js SEO Best Practices",
+        date: "10/07/2025",
     },
 ];
