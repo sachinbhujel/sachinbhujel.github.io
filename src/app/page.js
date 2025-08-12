@@ -12,7 +12,7 @@ export default function Home() {
         <main className="mt-5 p-4">
           <Profile />
           <About />
-          <div className="mt-11 scroll-mt-10" id="projects">
+          <div className="mt-11 scroll-mt-11" id="projects">
             <h2 className="text-2xl">Projects</h2>
             <ProjectsList />
           </div>
@@ -20,8 +20,8 @@ export default function Home() {
             <h2 className="text-2xl">Tech Stack</h2>
             <TechLists />
           </div>
-          <div className="mt-11">
-            <h2 className="text-2xl">Learning Experience</h2>
+          <div className="mt-11 scroll-mt-11" id="experience">
+            <h2 className="text-2xl">Work Experience</h2>
             <Experience />
           </div>
           <Footer />
