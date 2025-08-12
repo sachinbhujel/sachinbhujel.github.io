@@ -15,6 +15,8 @@ A minimal, clean portfolio template built with Next.js. Perfect for developers w
 - DaisyUI
 
 ## Deploy
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Sachinbhujel/NextJS-Portfolio-Template)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSachinbhujel%2FNextJS-Portfolio-Template)
 
 
 ## Customization
