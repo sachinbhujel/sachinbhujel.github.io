@@ -1,5 +1,6 @@
 import React from "react";
 import { blogs } from "../../data/data";
+import Link from "next/link";
 
 function page() {
     return (
@@ -12,9 +13,11 @@ function page() {
                             key={index}
                             className="flex items-center justify-between gap-5"
                         >
-                            <h2 className="cursor-pointer hover:underline">
-                                {blog.title}
-                            </h2>
+                            <Link href={blog.link}>
+                                <h2 className="cursor-pointer hover:underline">
+                                    {blog.title}
+                                </h2>
+                            </Link>
                             <p className="text-sm">{blog.date}</p>
                         </div>
                     ))}
