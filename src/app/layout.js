@@ -21,13 +21,10 @@ export default function RootLayout({ children }) {
         <html lang="en" data-theme="light">
             <head>
                 <link rel="icon" href="/favicon.ico" />
-                <script
-                    defer
-                    data-website-id="6894d440594ad4c6a4bd72d2"
-                    data-domain="sachinbhujel.netlify.app"
-                    src="https://datafa.st/js/script.js"
-                ></script>
-                        <script data-goatcounter="https://sachinbhujel.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+                <link
+                    rel="stylesheet"
+                    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"
+                />
             </head>
             <body
                 className={`${dongleFont.variable} antialiased overflow-auto`}
