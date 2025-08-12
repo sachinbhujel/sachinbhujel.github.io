@@ -79,3 +79,6 @@ export const experience = [
         date: "20/07/2025",
     },
 ];
+
+export const blogs = [
+]

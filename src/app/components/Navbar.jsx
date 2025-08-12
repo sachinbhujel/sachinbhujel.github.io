@@ -20,7 +20,7 @@ export default function Navbar() {
                                     >
                                         <li>
                                             <a
-                                                href="#about"
+                                                href="/#about"
                                                 className="hover:underline"
                                             >
                                                 About
@@ -28,7 +28,7 @@ export default function Navbar() {
                                         </li>
                                         <li>
                                             <a
-                                                href="#projects"
+                                                href="/#projects"
                                                 className="hover:underline"
                                             >
                                                 Projects
@@ -36,7 +36,7 @@ export default function Navbar() {
                                         </li>
                                         <li>
                                             <a
-                                                href="#experience"
+                                                href="/#experience"
                                                 className="hover:underline"
                                             >
                                                 Experience
@@ -44,7 +44,7 @@ export default function Navbar() {
                                         </li>
                                     </ul>
                              
-                            <Link href="#blogs" className="hover:underline">
+                            <Link href="/blogs" className="hover:underline">
                                 Blogs
                             </Link>
                         </div>
