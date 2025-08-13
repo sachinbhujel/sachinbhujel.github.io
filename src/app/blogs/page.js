@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 import { blogs } from "../../data/data";
 import Link from "next/link";
 
