@@ -55,4 +55,12 @@ export const experience = [
         date: "Date",
     }
 ];
+
+export const blogs = [
+    {
+        title: "Your Blog Title",
+        date: "Date",
+        link: "#",
+    }
+];
 ```
