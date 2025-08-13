@@ -45,4 +45,5 @@ html, body {
   scrollbar-width: none; 
   -ms-overflow-style: none;
    scroll-behavior: smooth;
+   font-family: "Rethink Sans";
 }

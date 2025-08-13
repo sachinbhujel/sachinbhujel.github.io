@@ -1,13 +1,6 @@
-import { Dongle } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import { about } from "@/data/data";
-
-const dongleFont = Dongle({
-    variable: "--font-dongle",
-    subsets: ["latin"], // only English
-    weight: ["400"], // only regular weight
-});
 
 export const metadata = {
     title: `Hi there👋 | ${about.name} | ${about.role}`,
@@ -26,9 +19,13 @@ export default function RootLayout({ children }) {
                     rel="stylesheet"
                     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"
                 />
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+                    rel="stylesheet"
+                ></link>
             </head>
             <body
-                className={`${dongleFont.variable} antialiased overflow-auto`}
+                className={`antialiased overflow-auto`}
             >
                 <div className="w-[100%] md:w-[700px] m-auto p-1">
                     <Navbar />

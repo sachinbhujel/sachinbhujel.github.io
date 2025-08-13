@@ -3,8 +3,8 @@ import { skills } from "@/data/data";
 
 export default function TechLists() {
     return (
-        <div className="mt-11">
-             <h2 className="text-2xl">Tech Stack</h2>
+        <div className="mt-10">
+             <h2 className="text-xl font-medium">Tech Stack</h2>
             <Marquee duration="10s">
                 <div className="flex gap-8 mt-4">
                     {[...skills, ...skills].map((skill, index) => (

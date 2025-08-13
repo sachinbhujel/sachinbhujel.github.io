@@ -8,7 +8,7 @@ function page() {
     return (
         <>
             <div className="not-prose flex flex-col gap-4 p-4">
-                <h2 className="text-2xl font-semibold">Blogs</h2>
+                <h2 className="text-xl font-medium">Blogs</h2>
                 <div className="flex flex-col gap-5 p-1">
                     {blogs.length > 0 ? (
                         blogs.map((blog, index) => (
@@ -21,7 +21,7 @@ function page() {
                                         {blog.title}
                                     </h2>
                                 </Link>
-                                <p className="text-sm">{blog.date}</p>
+                                <p className="text-xs">{blog.date}</p>
                             </div>
                         ))
                     ) : (
