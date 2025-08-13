@@ -44,4 +44,5 @@ body::-webkit-scrollbar {
 html, body {
   scrollbar-width: none; 
   -ms-overflow-style: none;
+   scroll-behavior: smooth;
 }
