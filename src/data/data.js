@@ -40,7 +40,7 @@ export const projects = [
         title: "NextJS Portfolio Template",
         description:
             "A minimal, clean portfolio template built with Next.js. Perfect for developers who want a simple yet professional online presence without the complexity.",
-        tags: ["Tailwind", "NextJs, Daisyui"],
+        tags: ["Tailwind", "NextJs", "Daisyui"],
         link: "https://github.com/Sachinbhujel/NextJS-Portfolio-Template",
     },
     {
