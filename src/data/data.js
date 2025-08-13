@@ -6,12 +6,12 @@ export const about = {
 };
 
 export const skills = [
-    { name: "Html", icon: "/html.svg" },
-    { name: "Css", icon: "/css.svg" },
-    { name: "Js", icon: "/js.svg" },
-    { name: "Tailwind", icon: "/tailwind.svg" },
-    { name: "React Js", icon: "/react.svg" },
-    { name: "Next Js", icon: "/nextjs.svg" },
+    { name: "Html", alt: "html logo", icon: "/html.svg" },
+    { name: "Css", alt: "css logo", icon: "/css.svg" },
+    { name: "Js", alt: "js logo", icon: "/js.svg" },
+    { name: "Tailwind", alt: "tailwind logo", icon: "/tailwind.svg" },
+    { name: "React Js", alt: "react logo", icon: "/react.svg" },
+    { name: "Next Js", alt: "nextjs logo", icon: "/nextjs.svg" },
 ];
 
 export const socials = {

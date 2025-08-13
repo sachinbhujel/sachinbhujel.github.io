@@ -1,6 +1,7 @@
 import { Dongle } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import { about } from "@/data/data";
 
 const dongleFont = Dongle({
     variable: "--font-dongle",
@@ -9,11 +10,11 @@ const dongleFont = Dongle({
 });
 
 export const metadata = {
-    title: "Sachin Bhujel",
+    title: `Hi there👋 | ${about.name} | ${about.role}`,
     icons: {
         icon: [{ url: "/favicon.ico" }],
     },
-    description: "Portfolio Website",
+    description: `${about.about}`,
 };
 
 export default function RootLayout({ children }) {
