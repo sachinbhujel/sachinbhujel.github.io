@@ -1,6 +1,7 @@
 import { Dongle } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import { about } from "@/data/data";
 
 const dongleFont = Dongle({
     variable: "--font-dongle",
@@ -9,11 +10,11 @@ const dongleFont = Dongle({
 });
 
 export const metadata = {
-    title: "Sachin Bhujel",
+    title: `Hi there👋 | ${about.name} | ${about.role}`,
     icons: {
         icon: [{ url: "/favicon.ico" }],
     },
-    description: "Portfolio Website",
+    description: `${about.description}`,
 };
 
 export default function RootLayout({ children }) {
@@ -21,12 +22,6 @@ export default function RootLayout({ children }) {
         <html lang="en" data-theme="light">
             <head>
                 <link rel="icon" href="/favicon.ico" />
-                <script
-                    defer
-                    data-website-id="6894d440594ad4c6a4bd72d2"
-                    data-domain="sachinbhujel.netlify.app"
-                    src="https://datafa.st/js/script.js"
-                ></script>
                 <link
                     rel="stylesheet"
                     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"
