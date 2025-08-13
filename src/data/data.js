@@ -43,20 +43,6 @@ export const projects = [
         tags: ["CSS", "React Js"],
         link: "https://storixy.netlify.app/",
     },
-    {
-        title: "Project 4",
-        description:
-            "An admin dashboard with real-time data visualization, tables, and role-based access control. Designed for efficient data management.",
-        tags: ["CSS", "React Js"],
-        link: "https://invoicexy.netlify.app/",
-    },
-    {
-        title: "Project 5",
-        description:
-            "A dynamic social media platform featuring user profiles, real-time messaging, and customizable feeds. Built with scalability and user engagement in mind.",
-        tags: ["HTML", "CSS", "JavaScript"],
-        link: "https://sachinbhujel.github.io/30JavascriptProjects/Product_Cart/",
-    },
 ];
 
 export const experience = [
