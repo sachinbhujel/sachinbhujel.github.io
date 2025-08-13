@@ -16,6 +16,7 @@ export default function TechLists() {
                                 <img
                                     src={`${skill.icon}`}
                                     className="w-10 h-10"
+                                    alt={skills.alt}
                                 />
                             </div>
                             <span className="text-sm">{skill.name}</span>
