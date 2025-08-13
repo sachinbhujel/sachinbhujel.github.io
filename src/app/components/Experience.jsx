@@ -3,8 +3,8 @@ import { experience } from "../../data/data";
 export default function Experience() {
     return (
         <>
-            <div className="mt-11 scroll-mt-14" id="experience">
-                <h2 className="text-2xl">Work Experience</h2>
+            <div className="mt-10 scroll-mt-14" id="experience">
+                <h2 className="text-xl font-medium">Work Experience</h2>
                 <div className="mt-6">
                     <ol className="relative space-y-8 before:absolute before:-ml-px before:h-full before:w-0.5 before:rounded-full before:bg-gray-200 dark:before:bg-gray-500 mt-4 p-2">
                         {experience.map((item, index) => (
@@ -19,7 +19,7 @@ export default function Experience() {
                                         {item.date}
                                     </time>
 
-                                    <h3 className="text-lg font-bold">
+                                    <h3 className="text-lg font-semibold">
                                         {item.title}
                                     </h3>
 

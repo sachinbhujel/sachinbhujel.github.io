@@ -10,7 +10,7 @@ export default function Profile(){
         alt={`${about.name}'s profile`}
       />
       <div className="flex gap-[5px] items-center mt-1">
-        <h1 className="text-2xl">{about.name}</h1>
+        <h1 className="text-2xl font-semibold">{about.name}</h1>
         <svg
           viewBox="0 0 22 22"
           aria-label="Verified"
