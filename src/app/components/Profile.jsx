@@ -7,6 +7,7 @@ export default function Profile(){
       <img
         src="https://i.imgur.com/zjGPTRC.jpeg"
         className="w-[70px] h-[70px] rounded-[50%] object-cover object-center"
+        alt={`${about.name}'s profile`}
       />
       <div className="flex gap-[5px] items-center mt-1">
         <h1 className="text-2xl">{about.name}</h1>
