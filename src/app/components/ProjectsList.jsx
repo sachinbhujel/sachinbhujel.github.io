@@ -4,7 +4,7 @@ import { projects } from "@/data/data";
 export default function ProjectsList() {
     return (
         <div className="mt-10 scroll-mt-14 flex flex-col gap-2" id="projects">
-            <h2 className="text-xl font-medium">Projects</h2>
+            <h2 className="text-xl font-medium before:content-['>'] before:mr-1">Projects</h2>
             <div className="flex flex-col gap-2">
                 {projects.map((item, index) => (
                     <a
@@ -12,7 +12,7 @@ export default function ProjectsList() {
                         key={index}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group cursor-pointer p-4 border-2 border-gray-300 hover:border-black active:border-black rounded-2xl transition-all duration-300"
+                        className="group cursor-pointer p-4 border-2 border-base-content/20 hover:border-base-content/80 rounded-2xl hover:scale-102 transition-transform duration-200"
                     >
                         <div className="flex flex-col gap-2 justify-between">
                             <div className="flex items-center justify-between">
