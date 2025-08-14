@@ -22,28 +22,28 @@ export default function Navbar() {
                                          } sm:flex`}
                             >
                                 <li>
-                                    <a
+                                    <Link
                                         href="/#about"
                                         className="hover:underline"
                                     >
                                         About
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
+                                    <Link
                                         href="/#projects"
                                         className="hover:underline"
                                     >
                                         Projects
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
+                                    <Link
                                         href="/#experience"
                                         className="hover:underline"
                                     >
                                         Experience
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
 
@@ -73,17 +73,63 @@ export default function Navbar() {
                                 </span>
                             </button>
                             <button className="flex">
-                                <input
-                                    type="checkbox"
-                                    className="toggle theme-controller toggle-sm"
-                                    onChange={(e) => {
-                                        const isNight = e.target.checked;
-                                        document.documentElement.setAttribute(
-                                            "data-theme",
-                                            isNight ? "dark" : "light"
-                                        );
-                                    }}
-                                />
+                                <label className="toggle text-base-content toggle-sm">
+                                    <input
+                                        type="checkbox"
+                                        onChange={(e) => {
+                                            const isNight = e.target.checked;
+                                            document.documentElement.setAttribute(
+                                                "data-theme",
+                                                isNight ? "dark" : "light"
+                                            );
+                                        }}
+                                        className="theme-controller"
+                                    />
+
+                                    <svg
+                                        aria-label="sun"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <g
+                                            strokeLinejoin="round"
+                                            strokeLinecap="round"
+                                            strokeWidth="2"
+                                            fill="none"
+                                            stroke="currentColor"
+                                        >
+                                            <circle
+                                                cx="12"
+                                                cy="12"
+                                                r="4"
+                                            ></circle>
+                                            <path d="M12 2v2"></path>
+                                            <path d="M12 20v2"></path>
+                                            <path d="m4.93 4.93 1.41 1.41"></path>
+                                            <path d="m17.66 17.66 1.41 1.41"></path>
+                                            <path d="M2 12h2"></path>
+                                            <path d="M20 12h2"></path>
+                                            <path d="m6.34 17.66-1.41 1.41"></path>
+                                            <path d="m19.07 4.93-1.41 1.41"></path>
+                                        </g>
+                                    </svg>
+
+                                    <svg
+                                        aria-label="moon"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <g
+                                            strokeLinejoin="round"
+                                            strokeLinecap="round"
+                                            strokeWidth="2"
+                                            fill="none"
+                                            stroke="currentColor"
+                                        >
+                                            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                                        </g>
+                                    </svg>
+                                </label>
                             </button>
                         </div>
                     </div>
