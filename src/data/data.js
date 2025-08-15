@@ -6,7 +6,7 @@ export const about = {
 };
 
 export const forms = {
-    formspreeUrl: "#",
+    formspreeUrl: "https://formspree.io/f/<url>",
 }
 
 export const skills = [
