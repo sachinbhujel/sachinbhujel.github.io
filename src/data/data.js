@@ -5,6 +5,10 @@ export const about = {
     email: "sachinbhujel@duck.com",
 };
 
+export const forms = {
+    formspreeUrl: "#",
+}
+
 export const skills = [
     { name: "Html", alt: "html logo", icon: "/html.svg" },
     { name: "Css", alt: "css logo", icon: "/css.svg" },

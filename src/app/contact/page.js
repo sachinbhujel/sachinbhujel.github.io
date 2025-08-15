@@ -1,4 +1,5 @@
 import React from "react";
+import { forms } from "@/data/data";
 
 function Contact() {
     return (
@@ -10,7 +11,7 @@ function Contact() {
                     </h1>
                     <div className="p-1">
                         <form
-                            action="https://formspree.io/f/mpwlnbgn"
+                            action={forms.formspreeUrl}
                             method="POST"
                             className="flex flex-col"
                         >
