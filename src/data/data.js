@@ -50,20 +50,6 @@ export const projects = [
         tags: ["CSS", "React Js"],
         link: "https://storixy.netlify.app/",
     },
-    {
-        title: "Smart Invoice Generator",
-        description:
-            "Make invoices easily with our Invoice Generator. Just add details, download your invoice, and manage all your bills in one place.",
-        tags: ["CSS", "React Js"],
-        link: "https://invoicexy.netlify.app/",
-    },
-    {
-        title: "Product Cart",
-        description:
-            "A Shopping Cart in JavaScript lets users pick items to buy. They can add or remove products easily from the cart.",
-        tags: ["HTML", "CSS", "JavaScript"],
-        link: "https://sachinbhujel.github.io/30JavascriptProjects/Product_Cart/",
-    },
 ];
 
 export const experience = [
