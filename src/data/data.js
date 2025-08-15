@@ -21,29 +21,54 @@ export const socials = {
     facebook: "https://www.facebook.com/imsachinbhujel",
 };
 
-export const projects = [
-    {
-        title: "Project 1",
-        description:
-            "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
-        tags: ["CSS", "React Js"],
-        link: "https://maketypefast.netlify.app/",
-    },
-    {
-        title: "Project 2",
-        description:
-            "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
-        tags: ["CSS", "React Js"],
-        link: "https://reflectly.pages.dev/",
-    },
-    {
-        title: "Project 3",
-        description:
-            "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-        tags: ["CSS", "React Js"],
-        link: "https://storixy.netlify.app/",
-    },
-];
+export const projects = {
+    pinProjects: [
+        {
+            title: "Project 1",
+            description:
+                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
+            tags: ["CSS", "React Js"],
+            link: "",
+        },
+        {
+            title: "Project 2",
+            description:
+                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
+            tags: ["CSS", "React Js"],
+            link: "",
+        },
+        {
+            title: "Project 3",
+            description:
+                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
+            tags: ["CSS", "React Js"],
+            link: "",
+        },
+    ],
+    otherProjects: [
+        {
+            title: "Project 4",
+            description:
+                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
+            tags: ["CSS", "React Js"],
+            link: "",
+        },
+        {
+            title: "Project 5",
+            description:
+                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
+            tags: ["CSS", "React Js"],
+            link: "",
+        },
+        {
+            title: "Project 6",
+            description:
+                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
+            tags: ["CSS", "React Js"],
+            link: "",
+        },
+    ],
+};
 
 export const experience = [
     {

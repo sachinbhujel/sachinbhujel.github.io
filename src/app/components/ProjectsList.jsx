@@ -1,12 +1,20 @@
 "use client";
 import { projects } from "@/data/data";
+import Link from "next/link";
 
 export default function ProjectsList() {
     return (
         <div className="mt-10 scroll-mt-14 flex flex-col gap-2" id="projects">
-            <h2 className="text-xl font-medium before:content-['>'] before:mr-1">Projects</h2>
+            <div className="flex items-end justify-between">
+                <h2 className="text-xl font-medium before:content-['>'] before:mr-1">
+                    Projects
+                </h2>
+                <Link href="/projects" className="text-sm flex underline">
+                    See All
+                </Link>
+            </div>
             <div className="flex flex-col gap-2">
-                {projects.map((item, index) => (
+                {projects.pinProjects.map((item, index) => (
                     <a
                         href={item.link}
                         key={index}
@@ -16,7 +24,9 @@ export default function ProjectsList() {
                     >
                         <div className="flex flex-col gap-2 justify-between">
                             <div className="flex items-center justify-between">
-                                <h2 className="font-semibold text-lg">{item.title}</h2>
+                                <h2 className="font-semibold text-lg">
+                                    {item.title}
+                                </h2>
                                 <svg
                                     focusable="false"
                                     preserveAspectRatio="xMidYMid meet"
