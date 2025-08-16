@@ -6,8 +6,8 @@ export const about = {
 };
 
 export const forms = {
-    formspreeUrl: "https://formspree.io/f/<url>",
-}
+    formspreeUrl: "https://formspree.io/f/mpwlnbgn",
+};
 
 export const skills = [
     { name: "Html", alt: "html logo", icon: "/html.svg" },
@@ -28,48 +28,34 @@ export const socials = {
 export const projects = {
     pinProjects: [
         {
-            title: "Project 1",
+            title: "Type Fast",
             description:
-                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
+                "Your typing speed and accuracy will be calculated in real-time. It shows how fast and correct you are. It updates results while you type.",
             tags: ["CSS", "React Js"],
-            link: "",
+            link: "https://maketypefast.netlify.app",
         },
         {
-            title: "Project 2",
+            title: "Your Personal Journal",
             description:
-                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
+                "A simple and peaceful space to capture your thoughts, dreams, and daily moments. Reflect, write, and grow—one entry at a time.",
             tags: ["CSS", "React Js"],
-            link: "",
+            link: "https://reflectly.pages.dev",
         },
         {
-            title: "Project 3",
+            title: "NextJS Portfolio Template",
             description:
-                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-            tags: ["CSS", "React Js"],
-            link: "",
+                "A minimal, clean portfolio template built with Next.js. Perfect for developers who want a simple yet professional online presence without the complexity.",
+            tags: ["Tailwind", "NextJs", "Daisyui"],
+            link: "https://github.com/Sachinbhujel/NextJS-Portfolio-Template",
         },
     ],
     otherProjects: [
         {
-            title: "Project 4",
+            title: "Stories For You",
             description:
-                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
+                "A website where you can only see stories. Watch and share real moments with StoriXY. And stay connected in the most effortless way.",
             tags: ["CSS", "React Js"],
-            link: "",
-        },
-        {
-            title: "Project 5",
-            description:
-                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
-            tags: ["CSS", "React Js"],
-            link: "",
-        },
-        {
-            title: "Project 6",
-            description:
-                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-            tags: ["CSS", "React Js"],
-            link: "",
+            link: "https://storixy.netlify.app",
         },
     ],
 };
@@ -95,5 +81,4 @@ export const experience = [
     },
 ];
 
-export const blogs = [
-]
+export const blogs = [];
