@@ -45,6 +45,14 @@ export default function Navbar() {
                                         Experience
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link
+                                        href="/contact"
+                                        className="hover:underline"
+                                    >
+                                     Contact
+                                    </Link>
+                                </li>
                             </ul>
 
                             <Link
