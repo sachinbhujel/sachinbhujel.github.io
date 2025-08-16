@@ -1,9 +1,16 @@
+
+
 export const about = {
     name: "Sachin Bhujel",
     role: "Web Developer",
     about: "Hello! I'm Sachin Bhujel, a frontend developer currently working on myself. Open to remote web dev roles. I know JavaScript and am currently learning React.js & Tailwind.",
     email: "sachinbhujel@duck.com",
 };
+export const seo = {
+    title: `${about.name} | ${about.role}`,
+    description: "Minimal, clean Next.js portfolio template for developers seeking a simple, professional online presence without extra complexity.",
+    keywords: "portfolio, web developer, Next.js, developer portfolio, minimal portfolio",
+}
 
 export const forms = {
     formspreeUrl: "https://formspree.io/f/mpwlnbgn",
