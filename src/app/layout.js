@@ -28,6 +28,11 @@ export default function RootLayout({ children }) {
                     src="https://cloud.umami.is/script.js"
                     data-website-id="0b4219ac-7d8a-4f5c-96c7-f3898a4b9bc1"
                 ></script>
+                <script
+                    data-goatcounter="https://sachinbhujel.goatcounter.com/count"
+                    async
+                    src="//gc.zgo.at/count.js"
+                ></script>
             </head>
             <body className={`antialiased overflow-auto`}>
                 <div className="w-[100%] md:w-[700px] m-auto">
