@@ -23,11 +23,13 @@ export default function RootLayout({ children }) {
                     href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
                     rel="stylesheet"
                 ></link>
-                <script defer src="https://cloud.umami.is/script.js" data-website-id="0b4219ac-7d8a-4f5c-96c7-f3898a4b9bc1"></script>
+                <script
+                    defer
+                    src="https://cloud.umami.is/script.js"
+                    data-website-id="0b4219ac-7d8a-4f5c-96c7-f3898a4b9bc1"
+                ></script>
             </head>
-            <body
-                className={`antialiased overflow-auto`}
-            >
+            <body className={`antialiased overflow-auto`}>
                 <div className="w-[100%] md:w-[700px] m-auto">
                     <Navbar />
                     {children}
