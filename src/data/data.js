@@ -28,11 +28,11 @@ export const socials = {
 export const projects = {
     pinProjects: [
         {
-            title: "Type Fast",
+            title: "BadviceAI",
             description:
-                "Your typing speed and accuracy will be calculated in real-time. It shows how fast and correct you are. It updates results while you type.",
-            tags: ["CSS", "React Js"],
-            link: "https://maketypefast.netlify.app",
+                "Badvice AI is a fun, humorous AI that gives bad advice for any problem you throw at it.",
+            tags: ["Tailwind Css", "Next Js"],
+            link: "https://badvice.vercel.app",
         },
         {
             title: "Your Personal Journal",
@@ -57,6 +57,13 @@ export const projects = {
             tags: ["CSS", "React Js"],
             link: "https://storixy.netlify.app",
         },
+        {
+            title: "Type Fast",
+            description:
+                "Your typing speed and accuracy will be calculated in real-time. It shows how fast and correct you are. It updates results while you type.",
+            tags: ["CSS", "React Js"],
+            link: "https://maketypefast.netlify.app",
+        }
     ],
 };
 
