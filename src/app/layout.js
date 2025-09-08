@@ -9,7 +9,7 @@ export const metadata = {
         icon: [{ url: "/favicon.ico" }],
     },
     description: `${seo.description}`,
-    keywords: `${seo.keywords}`
+    keywords: `${seo.keywords}`,
 };
 
 export default function RootLayout({ children }) {
