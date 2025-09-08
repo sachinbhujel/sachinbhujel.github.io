@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <>
             <div>
-                <main className="mt-5 p-4">
+                <main className="mt-5 p-4 pb-2">
                     <Profile />
                     <About />
                     <ProjectsList />
