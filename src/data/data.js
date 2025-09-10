@@ -7,9 +7,11 @@ export const about = {
 
 export const seo = {
     title: `${about.name} | ${about.role}`,
-    description: "Minimal, clean Next.js portfolio template for developers seeking a simple, professional online presence without extra complexity.",
-    keywords: "portfolio, web developer, Next.js, developer portfolio, minimal portfolio",
-}
+    description:
+        "Minimal, clean Next.js portfolio template for developers seeking a simple, professional online presence without extra complexity.",
+    keywords:
+        "portfolio, web developer, Next.js, developer portfolio, minimal portfolio",
+};
 
 export const forms = {
     formspreeUrl: "https://formspree.io/f/mpwlnbgn",
@@ -41,11 +43,11 @@ export const projects = {
             link: "https://badvice.vercel.app",
         },
         {
-            title: "Your Personal Journal",
+            title: "HeyWeather",
             description:
-                "A simple and peaceful space to capture your thoughts, dreams, and daily moments. Reflect, write, and grow—one entry at a time.",
-            tags: ["CSS", "React Js"],
-            link: "https://reflectly.pages.dev",
+                "A minimal and modern weather app built with Next.js and TailwindCSS. What makes HeyWeather unique is its multiple theme options and a clean UI.",
+            tags: ["Tailwind Css", "Next Js"],
+            link: "https://heyweather.vercel.app",
         },
         {
             title: "NextJS Portfolio Template",
@@ -56,6 +58,13 @@ export const projects = {
         },
     ],
     otherProjects: [
+        {
+            title: "Your Personal Journal",
+            description:
+                "A simple and peaceful space to capture your thoughts, dreams, and daily moments. Reflect, write, and grow—one entry at a time.",
+            tags: ["CSS", "React Js"],
+            link: "https://reflectly.pages.dev",
+        },
         {
             title: "Stories For You",
             description:
@@ -69,7 +78,7 @@ export const projects = {
                 "Your typing speed and accuracy will be calculated in real-time. It shows how fast and correct you are. It updates results while you type.",
             tags: ["CSS", "React Js"],
             link: "https://maketypefast.netlify.app",
-        }
+        },
     ],
 };
 
