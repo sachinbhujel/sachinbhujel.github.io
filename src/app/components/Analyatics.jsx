@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Analytics() {
-  return (
-    <>
-
-    </>
-  )
+    return <></>;
 }
 
-export default Analytics
+export default Analytics;

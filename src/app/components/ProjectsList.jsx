@@ -9,7 +9,10 @@ export default function ProjectsList() {
                 <h2 className="text-xl font-medium before:content-['>'] before:mr-1">
                     Projects
                 </h2>
-                <Link href="/projects" className="text-sm flex underline hover:text-base-content/80">
+                <Link
+                    href="/projects"
+                    className="text-sm flex underline hover:text-base-content/80"
+                >
                     See All
                 </Link>
             </div>
