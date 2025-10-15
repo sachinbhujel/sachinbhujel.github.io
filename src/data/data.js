@@ -36,11 +36,11 @@ export const socials = {
 export const projects = {
     pinProjects: [
         {
-            title: "BadviceAI",
+            title: "DiffyAI",
             description:
-                "Badvice AI is a fun, humorous AI that gives bad advice for any problem you throw at it.",
+                "DiffyAI is a minimal and lightweight AI chat app built with Next.js and TailwindCSS.",
             tags: ["Tailwind Css", "Next Js"],
-            link: "https://badvice.vercel.app",
+            link: "https://diffyai.vercel.app",
         },
         {
             title: "HeyWeather",
@@ -59,6 +59,20 @@ export const projects = {
     ],
     otherProjects: [
         {
+            title: "Type Fast",
+            description:
+                "Your typing speed and accuracy will be calculated in real-time. It shows how fast and correct you are. It updates results while you type.",
+            tags: ["CSS", "React Js"],
+            link: "https://maketypefast.netlify.app",
+        },
+        {
+            title: "PalettePop",
+            description:
+                "A simple and interactive web app that generates color palettes from any image you upload.",
+            tags: ["Tailwind Css", "Next Js"],
+            link: "https://palettepop.vercel.app",
+        },
+        {
             title: "Your Personal Journal",
             description:
                 "A simple and peaceful space to capture your thoughts, dreams, and daily moments. Reflect, write, and grow—one entry at a time.",
@@ -66,18 +80,18 @@ export const projects = {
             link: "https://reflectly.pages.dev",
         },
         {
+            title: "BadviceAI",
+            description:
+                "Badvice AI is a fun, humorous AI that gives bad advice for any problem you throw at it.",
+            tags: ["Tailwind Css", "Next Js"],
+            link: "https://badvice.vercel.app",
+        },
+        {
             title: "Stories For You",
             description:
                 "A website where you can only see stories. Watch and share real moments with StoriXY. And stay connected in the most effortless way.",
             tags: ["CSS", "React Js"],
             link: "https://storixy.netlify.app",
-        },
-        {
-            title: "Type Fast",
-            description:
-                "Your typing speed and accuracy will be calculated in real-time. It shows how fast and correct you are. It updates results while you type.",
-            tags: ["CSS", "React Js"],
-            link: "https://maketypefast.netlify.app",
         },
     ],
 };
@@ -100,6 +114,12 @@ export const experience = [
         description:
             "I am currently learning Tailwind CSS. This journey has helped me improve my problem-solving skills and learn new technologies.",
         date: "20/07/2025",
+    },
+    {
+        title: "Building projects with Next.js",
+        description:
+            "I have also been learning intermediate Next.js and completed projects with it.",
+        date: "24/07/2025",
     },
 ];
 
